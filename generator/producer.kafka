@@ -1,0 +1,5 @@
+PRODUCER first-topic-test-producer
+topic: first-topic
+{
+    "type": "my_test_event-{{random.number}}"
+}
