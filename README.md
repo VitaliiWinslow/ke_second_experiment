@@ -14,6 +14,35 @@ https://quarkus.io/guides/kafka
 
 https://smallrye.io/smallrye-reactive-messaging/4.7.0/
 
+## IntelliJ
+### Commands
+`CTRL + ALT + S` for Settings menu opening
+
+### Used plugins
+ - https://www.jetbrains.com/help/idea/markdown.html
+
+## Docker
+
+### Windows OS
+
+- WSL 2 setup
+  - https://learn.microsoft.com/en-us/windows/wsl/
+  - https://learn.microsoft.com/fr-fr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+  - https://pureinfotech.com/install-windows-subsystem-linux-2-windows-10/
+  - https://www.youtube.com/watch?v=qApYnUYaDPA
+- https://basila.medium.com/wsl2-ubuntu-22-04-and-the-correct-etc-wsl-conf-configuration-d332af95d770
+
+#### Docker Desktop
+
+https://docs.docker.com/desktop/
+
+ - WSL setup management => https://docs.docker.com/desktop/wsl/
+ - https://basila.medium.com/wsl2-ubuntu-22-04-and-the-correct-etc-wsl-conf-configuration-d332af95d770
+
+- Memory leak management
+  - You need to be signed on to read this full medium => https://medium.com/geekculture/how-to-limit-memory-usage-on-docker-desktop-wsl-2-mode-2a4a719f05fd
+  - Advanced settings configuration of WSL => https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
+
 ## Docker Compose
 
 `docker compose up`
