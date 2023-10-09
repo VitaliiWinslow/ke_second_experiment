@@ -30,7 +30,7 @@ https://smallrye.io/smallrye-reactive-messaging/4.7.0/
   - https://learn.microsoft.com/fr-fr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
   - https://pureinfotech.com/install-windows-subsystem-linux-2-windows-10/
   - https://www.youtube.com/watch?v=qApYnUYaDPA
-- https://basila.medium.com/wsl2-ubuntu-22-04-and-the-correct-etc-wsl-conf-configuration-d332af95d770
+  - https://basila.medium.com/wsl2-ubuntu-22-04-and-the-correct-etc-wsl-conf-configuration-d332af95d770
 
 #### Docker Desktop
 
@@ -49,6 +49,12 @@ https://docs.docker.com/desktop/
 
 `docker compose down -v` to stop and delete all containers and linked volumes
 
+## Databases
+
+### PostgreSQL
+
+https://www.dbvis.com/thetable/how-to-set-up-postgres-using-docker/
+
 ## Kafka
 https://github.com/wurstmeister/kafka-docker
 
@@ -57,6 +63,9 @@ https://github.com/wurstmeister/kafka-docker
 `docker exec -it broker bash`
 
 `kafka-topics --bootstrap-server localhost:9092 --topic <topic_name> --create --partitions 3 --replication-factor 1`
+
+Kafka Topics naming convention
+https://medium.com/@kiranprabhu/kafka-topic-naming-conventions-best-practices-6b6b332769a3
 
 ### Control center
 
@@ -81,6 +90,19 @@ https://github.com/confluentinc/cp-all-in-one
 
 https://docs.confluent.io/platform/current/platform-quickstart.html#qs-prereq
 
-Test 2nd commit
+#### Security
+
+https://docs.confluent.io/platform/current/security/security_tutorial.html
+
+https://medium.com/@cloud_on_prem/running-kafka-locally-on-docker-with-ssl-c535897db664
+
+https://docs.confluent.io/platform/current/kafka/overview-authentication-methods.html
+
+https://www.scaler.com/topics/kafka-security/
+
+#### Configuration
+
+KAFKA_AUTO_CREATE_TOPICS_ENABLE parameter
+https://docs.confluent.io/platform/current/installation/configuration/broker-configs.html#auto-create-topics-enable
 
 
